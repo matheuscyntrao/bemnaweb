@@ -1,0 +1,30 @@
+// Trocar cor quando hover no menu
+#drop-down-left a:hover, #drop-down-left li.dropdown-menu-hover > a, #drop-down-left li.current-menu-item > a { color: #ea5644; background-color: #FFF; }
+
+Código retirado
+
+			    <li class="widget-container widget_course_search"><!-- widget -->
+                            
+                            	<h1 class="title-titan">Pesquisa</h1>
+                                
+                                <form role="search" method="get" id="course-finder" action="#">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="Find a course..." autocomplete="off" class="form-control" id="find-course" name="find-course" />
+                                        <span class="input-group-btn"><button type="submit" class="btn btn-default">Buscar!</button></span>
+                                    </div>
+                                    <span class="help-block">Procure pela data da turma</span>
+                                </form>
+                            
+                            </li><!-- widget end -->
+
+		<div id="k-top-search" class="col-lg-12 clearfix"><!-- top search -->
+                
+                    <form action="#" id="top-searchform" method="get" role="search">
+                        <div class="input-group">
+                            <input type="text" name="s" id="sitesearch" class="form-control" autocomplete="off" placeholder="Digite a palavra de pesquisa e pressione Enter" />
+                        </div>
+                    </form>
+                    
+                    <div id="bt-toggle-search" class="search-icon text-center"><i class="s-open fa fa-search"></i><i class="s-close fa fa-times"></i></div><!-- toggle search button -->
+                
+                </div><!-- top search end -->
